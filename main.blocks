@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="T{3Q|N5ZNB`a6N1wCjVB" x="98" y="-166"></block><block type="device_forever" id="]$~:tQ%,3N^e(*.TN,U%" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="btvsi]zZ(q}.N6F53}=["><value name="IF0"><shadow type="logic_boolean" id="?!EbdF_Y7r9yFs`S2aM?" disabled-reasons="pxt_automatic_disabled"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="w`0fgId,:|4+i(%a/a]_"><field name="OP">GTE</field><value name="A"><shadow type="math_number" id="n)K1GCXW8{3NElDyHRrc" disabled-reasons="pxt_automatic_disabled"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="2iOhVhm#SF#y[P-%+L-Y"></block></value><value name="B"><shadow type="math_number" id="(O7PF,yFU?:KV$)wn*)b"><field name="NUM">100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="1r/o_CuQQYW/O:ZG9nrO"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><next><block type="controls_if" id="q)FqXvxr4*8{H3kSQFDV"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="wu.WLE%ttPUYO%c$U3w2" disabled-reasons="pxt_automatic_disabled"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="2I~)Au)tb*?i*QjBvk$`"><field name="OP">LTE</field><value name="A"><shadow type="math_number" id="*8yG;OC/zAENARD=b.`-" disabled-reasons="pxt_automatic_disabled"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="C7gt0yEbF~,^Hr1ws^/x"></block></value><value name="B"><shadow type="math_number" id="mWRsKWar/$?zbe,MA(PM"><field name="NUM">100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="r0xm4Y|TImiK:$e3Ir6Z"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # . # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="e}4/:!:g|oBTt0XVy~E+"></block></statement><next><block type="controls_if" id="7a%Cy.[]J#mi}0^QdeOv"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="][$sN2K3=5hX*7Yg^/n/" disabled-reasons="pxt_automatic_disabled"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="`aqFD^c?B#[@4KKAWI~5"><field name="OP">LTE</field><value name="A"><shadow type="math_number" id=":MNfRcUkD?OfO:=$ws6U"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="[W(/B-!?O^4nF}M[C]iy"></block></value><value name="B"><shadow type="math_number" id="ku6ML9evBG)^?BOs1]md"><field name="NUM">70</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id=".9xl9;KUj%w`@.*b1JFU"><field name="LEDS">`
+        # # # # # 
+        # # . # # 
+        # . . . # 
+        # # . # # 
+        # # # # #
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="=tv$XL:8-KxS/o}fds6Y"></block></statement><next><block type="controls_if" id="61FsN:iAVra:${!r%/S~"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="a+z-;=G7n@AtOXsq7NaV"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="#-Z?r7M4Q_?:RUY_m4X/"><field name="OP">LTE</field><value name="A"><shadow type="math_number" id="^~w^ko^GRF!()LMh(~g$"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="j0E3I(]?|zNewyfcX}QL"></block></value><value name="B"><shadow type="math_number" id="h=1;qGi0*/Ltvd56[=*I"><field name="NUM">40</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="T~VpLhfMz($6VHA1o}C/"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="=3A4`-U:$th@IA2!Dh,)"></block></statement></block></next></block></next></block></next></block></statement></block></xml>
